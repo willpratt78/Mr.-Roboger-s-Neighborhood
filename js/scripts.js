@@ -20,8 +20,6 @@ var response = function(number) {
   }
 }
 
-
-
 //UI logic
 $(document).ready(function() {
   $("#converter").submit(function(event) {
@@ -33,7 +31,6 @@ $(document).ready(function() {
     } else {
       result = "Beep, boop, This isn't a number try again"
     }
-    
     
     $('#output').text(result);
     $('.well').show();
