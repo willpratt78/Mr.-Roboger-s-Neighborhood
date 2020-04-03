@@ -14,7 +14,9 @@ var response = function(number) {
   for (var i =0; i < responseSet.length; i++) {
     if (number == responseSet[i][0]) {
     return responseSet[i][1];
-    } 
+    }else if (number >= 4){
+    return number;
+    }
   }
 }
 
