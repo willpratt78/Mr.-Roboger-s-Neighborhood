@@ -1,6 +1,6 @@
 // business logic
 
-var responseSet = [[3, "won't you be my neighbor?"], [2, 'Boop!'], [1, 'Beep!']];
+var responseSet = [[1, 'Beep!'], [2, 'Boop!'],[3, "won't you be my neighbor?"]];
 
 var numChecker = function(number) {
   if (number === parseInt(number)) {
@@ -11,12 +11,10 @@ var numChecker = function(number) {
 }
 
 var response = function(number) {
-  for (var i =0; i< responseSet.length; i ++) {
-    if (number >= responseSet[i][0]) {
+  for (var i =0; i < responseSet.length; i++) {
+    if (number == responseSet[i][0]) {
     return responseSet[i][1];
-    } else {
-      return number;
-    }
+    } 
   }
 }
 
