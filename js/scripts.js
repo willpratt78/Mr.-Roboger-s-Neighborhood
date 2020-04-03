@@ -32,7 +32,7 @@ $(document).ready(function() {
       result = "Beep, boop, This isn't a number try again"
     }
     
-    $('#output').text(result);
+    $('#output').prepend(result);
     $('.well').show();
   });
 });
