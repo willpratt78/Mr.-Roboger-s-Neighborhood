@@ -27,7 +27,7 @@ This applicatio will take any instance of the number 1, 2, or 3 and change it to
 
 ## Known Bugs
 
-Currently numbers containing 1, 2, or 3 don't change to the correct phraise, multiple inputs don't stay in the input field.
+Currently numbers higher than, but also containing 1, 2, or 3 don't change to the correct phraise.
 
 ## Support and contact details
 
