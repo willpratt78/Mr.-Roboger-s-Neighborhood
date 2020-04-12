@@ -6,7 +6,12 @@
 
 ## Description
 
-This applicatio will take any instance of the number 1, 2, or 3 and change it to a specific phraise instead.
+| behavior | input | output |
+| -------- | ----- | ------ |
+|User input will be checked to see if it's a number or not| 9 | 9|
+Input of 1,2,or 3 will change output| 1| 'Beep!'|
+Any Input containing the number 1,2, or 3 will change input| 42| 'Boop!'|
+Multiple inputs will be appended together| 5 ,7 , 4| 5 7 4
 
 ## BDD
 
