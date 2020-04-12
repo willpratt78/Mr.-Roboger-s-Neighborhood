@@ -19,17 +19,6 @@ Input of 3 will change output| 3| 'won't you be my neighbor?|
 Any Input containing the number 1,2, or 3 will change input| 42| 'Boop!'|
 Multiple inputs will be appended together| 5 ,7 , 4| 5 7 4|
 Array will gie priotrity to number 3, than 2, than 1| 31| 'won't you be my neighbor|
-
-* Have a difference between numbers and other characters
-* Have a return of the number input
-* Have return be and integer
-* Have the number 1 change to equal 'Beep!'
-* Have the number 2 change to equal 'Boop!'
-* Have the number 3 change to equal 'Won't you be my neighbor?'
-* Have multiple inputs on the same output line
-* Have numbers containing 1,2, or 3 turn into the correct output
-* Have array give priority to number 3, than 2, than 1
-
 ## Setup/Installation Requirements
 
 * open the page webpage lister here: https://willpratt78.github.io/Mr.-Roboger-s-Neighborhood/
